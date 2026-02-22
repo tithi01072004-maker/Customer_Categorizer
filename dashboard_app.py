@@ -55,7 +55,7 @@ elif page == "Prediction":
 
     st.subheader("🤖 Predict Customer Segment")
 
-    model = joblib.load("catboost_model.pkl")
+    model = joblib.load("catboost_updated.pkl")
 
     parental_status = st.selectbox("Parental Status", [0, 1])
     children = st.number_input("Children", 0, 5)
