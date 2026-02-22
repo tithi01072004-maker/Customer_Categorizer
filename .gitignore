@@ -1,0 +1,30 @@
+# Virtual Environment
+venv/
+env/
+virtualenv/
+customer_categorizer/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Streamlit config
+.streamlit/
+
+# Environment variables (important)
+.env
+
+# CatBoost training files
+catboost_info/
+
+# Database files
+*.db
+
+# OS files
+.DS_Store
+Thumbs.db
